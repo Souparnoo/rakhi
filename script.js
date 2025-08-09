@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('rakhi-form');
     const rakhiList = document.getElementById('rakhi-list');
-    const API_URL = 'http://localhost:3000/api/messages';
+    const API_URL = 'https://rakhi-backend.onrender.com';
 
     // Function to fetch and render all messages from the server
     async function fetchAndRenderRakhis() {
